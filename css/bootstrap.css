@@ -9,11 +9,11 @@
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 article,
@@ -29,7 +29,7 @@ menu,
 nav,
 section,
 summary {
-    display: block
+    display: block;
 }
 
 audio,
@@ -79,7 +79,7 @@ h1 {
 
 mark {
     color: #000;
-    background: #ff0
+    background: #ff0;
 }
 
 small {
@@ -180,24 +180,24 @@ input[type=radio] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0
+    padding: 0;
 }
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
-    height: auto
+    height: auto;
 }
 
 input[type=search] {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    -webkit-appearance: textfield
+    -webkit-appearance: textfield;
 }
 
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 fieldset {
@@ -7490,7 +7490,7 @@ button.close {
     border-left-color: #fff
 }
 
-.carousel {
+/** .carousel {
     position: relative
 }
 
@@ -7740,7 +7740,7 @@ button.close {
     .carousel-indicators {
         bottom: 20px
     }
-}
+} **/
 
 .btn-group-vertical>.btn-group:after,
 .btn-group-vertical>.btn-group:before,
