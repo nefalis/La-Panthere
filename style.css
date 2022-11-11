@@ -56,6 +56,12 @@ a:hover {
     padding: 20px 50px;
 }
 
+.div-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -672,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -700,7 +706,7 @@ p {
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 1.4em;
 }
 
@@ -1034,4 +1040,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+@media (max-width: 767px){
+.row-social {
+    display: flex;
+    justify-content: space-around;
+}
 }
