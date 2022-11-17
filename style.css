@@ -10,13 +10,15 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+  
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
